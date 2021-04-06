@@ -6,7 +6,9 @@
 	box-sizing: border-box;
 }
 
-html { font-size: 62.5%; }
+html { 
+	font-size: 62.5%;
+}
 
 body {
 	font-family: 'Press Start 2P', sans-serif;
@@ -14,7 +16,6 @@ body {
 	background-color: #222;
 }
 
-/* LAYOUT */
 header {
 	position: relative;
 	height: 35vh;
@@ -112,4 +113,16 @@ h1 {
 
 .label-score {
 	margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 786px) {
+	html {
+		font-size: 45%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	html {
+		font-size: 30%;
+	}
 }
