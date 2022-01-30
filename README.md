@@ -1,4 +1,6 @@
 # Guess-My-Number
+> Try to find the correct number asap.
+
 ![preview.PNG](preview.PNG)
 
 ## Live Demo
